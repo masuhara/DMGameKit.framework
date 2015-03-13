@@ -10,4 +10,6 @@
 
 @interface DMGameKit : NSObject
 
+- (void) startLogic;
+
 @end

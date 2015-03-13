@@ -6,10 +6,23 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		AFFAA2521AB2AEA100755A5B /* DMGameKit.framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AFFAA2531AB2AEA100755A5B /* Build configuration list for PBXAggregateTarget "DMGameKit.framework" */;
+			buildPhases = (
+				AFFAA2561AB2AEB400755A5B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = DMGameKit.framework;
+			productName = DMGameKit.framework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		AFFAA2321AB2AC7A00755A5B /* DMGameKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFFAA2311AB2AC7A00755A5B /* DMGameKit.h */; };
-		AFFAA2341AB2AC7A00755A5B /* DMGameKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFAA2331AB2AC7A00755A5B /* DMGameKit.m */; };
 		AFFAA23A1AB2AC7A00755A5B /* libDMGameKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFAA22E1AB2AC7A00755A5B /* libDMGameKit.a */; };
+		AFFAA25C1AB2B16600755A5B /* DMGameKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFAA25B1AB2B16600755A5B /* DMGameKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +42,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				AFFAA2321AB2AC7A00755A5B /* DMGameKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +49,11 @@
 
 /* Begin PBXFileReference section */
 		AFFAA22E1AB2AC7A00755A5B /* libDMGameKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDMGameKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFFAA2311AB2AC7A00755A5B /* DMGameKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMGameKit.h; sourceTree = "<group>"; };
-		AFFAA2331AB2AC7A00755A5B /* DMGameKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMGameKit.m; sourceTree = "<group>"; };
 		AFFAA2391AB2AC7A00755A5B /* DMGameKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMGameKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFAA23F1AB2AC7A00755A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFAA2511AB2ADA500755A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFAA2571AB2B14F00755A5B /* DMGameKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGameKit.h; sourceTree = "<group>"; };
+		AFFAA25B1AB2B16600755A5B /* DMGameKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGameKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +96,9 @@
 		AFFAA2301AB2AC7A00755A5B /* DMGameKit */ = {
 			isa = PBXGroup;
 			children = (
-				AFFAA2311AB2AC7A00755A5B /* DMGameKit.h */,
-				AFFAA2331AB2AC7A00755A5B /* DMGameKit.m */,
+				AFFAA24F1AB2AD2B00755A5B /* Headers */,
+				AFFAA24B1AB2AD2600755A5B /* Classes */,
+				AFFAA24A1AB2ACCC00755A5B /* Resources */,
 			);
 			path = DMGameKit;
 			sourceTree = "<group>";
@@ -103,6 +117,30 @@
 				AFFAA23F1AB2AC7A00755A5B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFFAA24A1AB2ACCC00755A5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAA2511AB2ADA500755A5B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AFFAA24B1AB2AD2600755A5B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAA25B1AB2B16600755A5B /* DMGameKit.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFFAA24F1AB2AD2B00755A5B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAA2571AB2B14F00755A5B /* DMGameKit.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +196,9 @@
 					AFFAA2381AB2AC7A00755A5B = {
 						CreatedOnToolsVersion = 6.2;
 					};
+					AFFAA2521AB2AEA100755A5B = {
+						CreatedOnToolsVersion = 6.2;
+					};
 				};
 			};
 			buildConfigurationList = AFFAA2291AB2AC7A00755A5B /* Build configuration list for PBXProject "DMGameKit" */;
@@ -174,6 +215,7 @@
 			targets = (
 				AFFAA22D1AB2AC7A00755A5B /* DMGameKit */,
 				AFFAA2381AB2AC7A00755A5B /* DMGameKitTests */,
+				AFFAA2521AB2AEA100755A5B /* DMGameKit.framework */,
 			);
 		};
 /* End PBXProject section */
@@ -188,12 +230,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AFFAA2561AB2AEB400755A5B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# ==============================\n# 変数設定\n# ==============================\nINFOPLIST='DMGameKit/Resources/Info.plist'\nFRAMEWORK_NAME=$(/usr/libexec/PlistBuddy -c \"Print CFBundleName\" ${INFOPLIST})\nBUILD_TARGET_NAME=$FRAMEWORK_NAME\nFRAMEWORK_BUILD_CONFIGURATION=\"Release\"\nFRAMEWORK_VERSION_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" ${INFOPLIST})\nFRAMEWORK_VERSION=A\nFRAMEWORK_BUILD_PATH=\"Framework\"\nFRAMEWORK_DIR=\"${FRAMEWORK_BUILD_PATH}/${FRAMEWORK_NAME}.framework\"\nPACKAGENAME=\"${FRAMEWORK_NAME}.${FRAMEWORK_VERSION_NUMBER}.zip\"\n\n# ==============================\n# ビルド\n# ==============================\nxcodebuild -configuration ${FRAMEWORK_BUILD_CONFIGURATION} -target ${BUILD_TARGET_NAME} clean\nxcodebuild -configuration ${FRAMEWORK_BUILD_CONFIGURATION} -target ${BUILD_TARGET_NAME} -sdk iphonesimulator${IPHONEOS_DEPLOYMENT_TARGET}\n[ $? != 0 ] && exit 1\nxcodebuild -configuration ${FRAMEWORK_BUILD_CONFIGURATION} -target ${BUILD_TARGET_NAME} -sdk iphoneos\n[ $? != 0 ] && exit 1\n\n# ==============================\n# ディレクトリ作成\n# ==============================\n[ -d \"${FRAMEWORK_BUILD_PATH}\" ] && rm -rf \"${FRAMEWORK_BUILD_PATH}\"\nmkdir -p ${FRAMEWORK_DIR}\nmkdir -p ${FRAMEWORK_DIR}/Versions\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Resources\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Headers\nln -s ${FRAMEWORK_VERSION} ${FRAMEWORK_DIR}/Versions/Current\nln -s Versions/Current/Headers ${FRAMEWORK_DIR}/Headers\nln -s Versions/Current/Resources ${FRAMEWORK_DIR}/Resources\nln -s Versions/Current/${FRAMEWORK_NAME} ${FRAMEWORK_DIR}/${FRAMEWORK_NAME}\n\n# ==============================\n# framework作成\n# ==============================\nlipo -create \\\nbuild/${FRAMEWORK_BUILD_CONFIGURATION}-iphoneos/lib${FRAMEWORK_NAME}.a \\\nbuild/${FRAMEWORK_BUILD_CONFIGURATION}-iphonesimulator/lib${FRAMEWORK_NAME}.a \\\n-o \"${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME}\"\n\ncp -Rf ${BUILD_TARGET_NAME}/Headers/* ${FRAMEWORK_DIR}/Headers/\ncp ${BUILD_TARGET_NAME}/Resources/* ${FRAMEWORK_DIR}/Resources/\ncp ${INFOPLIST} ${FRAMEWORK_DIR}/Resources/\ncd ${FRAMEWORK_BUILD_PATH}\nchmod -fR 777 \"${FRAMEWORK_NAME}.framework\"\nzip -ry ${PACKAGENAME} $(basename $FRAMEWORK_DIR)";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFFAA22A1AB2AC7A00755A5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFFAA2341AB2AC7A00755A5B /* DMGameKit.m in Sources */,
+				AFFAA25C1AB2B16600755A5B /* DMGameKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +395,20 @@
 			};
 			name = Release;
 		};
+		AFFAA2541AB2AEA100755A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFFAA2551AB2AEA100755A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,6 +434,14 @@
 			buildConfigurations = (
 				AFFAA2461AB2AC7A00755A5B /* Debug */,
 				AFFAA2471AB2AC7A00755A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFFAA2531AB2AEA100755A5B /* Build configuration list for PBXAggregateTarget "DMGameKit.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFAA2541AB2AEA100755A5B /* Debug */,
+				AFFAA2551AB2AEA100755A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

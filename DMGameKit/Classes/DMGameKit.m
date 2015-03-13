@@ -10,4 +10,9 @@
 
 @implementation DMGameKit
 
+- (void) startLogic{
+    
+    NSLog(@"framework内のメソッドから出力されたログ");
+}
+
 @end
