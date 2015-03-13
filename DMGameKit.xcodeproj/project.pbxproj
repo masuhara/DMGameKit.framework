@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFFAA2321AB2AC7A00755A5B /* DMGameKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFFAA2311AB2AC7A00755A5B /* DMGameKit.h */; };
+		AFFAA2341AB2AC7A00755A5B /* DMGameKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFAA2331AB2AC7A00755A5B /* DMGameKit.m */; };
+		AFFAA23A1AB2AC7A00755A5B /* libDMGameKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFAA22E1AB2AC7A00755A5B /* libDMGameKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFFAA23B1AB2AC7A00755A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFFAA2261AB2AC7A00755A5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFAA22D1AB2AC7A00755A5B;
+			remoteInfo = DMGameKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFFAA22C1AB2AC7A00755A5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AFFAA2321AB2AC7A00755A5B /* DMGameKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFFAA22E1AB2AC7A00755A5B /* libDMGameKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDMGameKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFAA2311AB2AC7A00755A5B /* DMGameKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMGameKit.h; sourceTree = "<group>"; };
+		AFFAA2331AB2AC7A00755A5B /* DMGameKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMGameKit.m; sourceTree = "<group>"; };
+		AFFAA2391AB2AC7A00755A5B /* DMGameKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMGameKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFAA23F1AB2AC7A00755A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFAA22B1AB2AC7A00755A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFAA2361AB2AC7A00755A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFAA23A1AB2AC7A00755A5B /* libDMGameKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFFAA2251AB2AC7A00755A5B = {
+			isa = PBXGroup;
+			children = (
+				AFFAA2301AB2AC7A00755A5B /* DMGameKit */,
+				AFFAA23D1AB2AC7A00755A5B /* DMGameKitTests */,
+				AFFAA22F1AB2AC7A00755A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFAA22F1AB2AC7A00755A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAA22E1AB2AC7A00755A5B /* libDMGameKit.a */,
+				AFFAA2391AB2AC7A00755A5B /* DMGameKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFAA2301AB2AC7A00755A5B /* DMGameKit */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAA2311AB2AC7A00755A5B /* DMGameKit.h */,
+				AFFAA2331AB2AC7A00755A5B /* DMGameKit.m */,
+			);
+			path = DMGameKit;
+			sourceTree = "<group>";
+		};
+		AFFAA23D1AB2AC7A00755A5B /* DMGameKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAA23E1AB2AC7A00755A5B /* Supporting Files */,
+			);
+			path = DMGameKitTests;
+			sourceTree = "<group>";
+		};
+		AFFAA23E1AB2AC7A00755A5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAA23F1AB2AC7A00755A5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFAA22D1AB2AC7A00755A5B /* DMGameKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFAA2421AB2AC7A00755A5B /* Build configuration list for PBXNativeTarget "DMGameKit" */;
+			buildPhases = (
+				AFFAA22A1AB2AC7A00755A5B /* Sources */,
+				AFFAA22B1AB2AC7A00755A5B /* Frameworks */,
+				AFFAA22C1AB2AC7A00755A5B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMGameKit;
+			productName = DMGameKit;
+			productReference = AFFAA22E1AB2AC7A00755A5B /* libDMGameKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFFAA2381AB2AC7A00755A5B /* DMGameKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFAA2451AB2AC7A00755A5B /* Build configuration list for PBXNativeTarget "DMGameKitTests" */;
+			buildPhases = (
+				AFFAA2351AB2AC7A00755A5B /* Sources */,
+				AFFAA2361AB2AC7A00755A5B /* Frameworks */,
+				AFFAA2371AB2AC7A00755A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFFAA23C1AB2AC7A00755A5B /* PBXTargetDependency */,
+			);
+			name = DMGameKitTests;
+			productName = DMGameKitTests;
+			productReference = AFFAA2391AB2AC7A00755A5B /* DMGameKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFAA2261AB2AC7A00755A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = net.masuhara;
+				TargetAttributes = {
+					AFFAA22D1AB2AC7A00755A5B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					AFFAA2381AB2AC7A00755A5B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = AFFAA2291AB2AC7A00755A5B /* Build configuration list for PBXProject "DMGameKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFFAA2251AB2AC7A00755A5B;
+			productRefGroup = AFFAA22F1AB2AC7A00755A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFAA22D1AB2AC7A00755A5B /* DMGameKit */,
+				AFFAA2381AB2AC7A00755A5B /* DMGameKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFFAA2371AB2AC7A00755A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFAA22A1AB2AC7A00755A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFAA2341AB2AC7A00755A5B /* DMGameKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFAA2351AB2AC7A00755A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFFAA23C1AB2AC7A00755A5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFFAA22D1AB2AC7A00755A5B /* DMGameKit */;
+			targetProxy = AFFAA23B1AB2AC7A00755A5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFFAA2401AB2AC7A00755A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFFAA2411AB2AC7A00755A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFFAA2431AB2AC7A00755A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AFFAA2441AB2AC7A00755A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AFFAA2461AB2AC7A00755A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMGameKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFFAA2471AB2AC7A00755A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMGameKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFAA2291AB2AC7A00755A5B /* Build configuration list for PBXProject "DMGameKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFAA2401AB2AC7A00755A5B /* Debug */,
+				AFFAA2411AB2AC7A00755A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFAA2421AB2AC7A00755A5B /* Build configuration list for PBXNativeTarget "DMGameKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFAA2431AB2AC7A00755A5B /* Debug */,
+				AFFAA2441AB2AC7A00755A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFFAA2451AB2AC7A00755A5B /* Build configuration list for PBXNativeTarget "DMGameKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFAA2461AB2AC7A00755A5B /* Debug */,
+				AFFAA2471AB2AC7A00755A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFFAA2261AB2AC7A00755A5B /* Project object */;
+}
