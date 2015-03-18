@@ -36,6 +36,8 @@
     puzzleView.frame = CGRectOffset(puzzleView.frame, 0, yOffset);
 }
 
+
+
 - (void)fadeOutImageView:(UIImageView *)imageView withDuration:(float)time {
     
     [UIView beginAnimations:@"fadeOut" context:nil];
