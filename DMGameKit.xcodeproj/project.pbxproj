@@ -21,6 +21,26 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		AF1093FE1AB94D15008BBB6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1093FD1AB94D15008BBB6D /* QuartzCore.framework */; };
+		AF1094001AB94D3D008BBB6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1093FF1AB94D3D008BBB6D /* UIKit.framework */; };
+		AF1094021AB94D50008BBB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1094011AB94D50008BBB6D /* Foundation.framework */; };
+		AF1094041AB94D69008BBB6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1094031AB94D69008BBB6D /* CoreGraphics.framework */; };
+		AF10943C1AB95219008BBB6D /* BCOStoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1094181AB95219008BBB6D /* BCOStoneView.m */; };
+		AF10943D1AB95219008BBB6D /* BCOTimerGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10941A1AB95219008BBB6D /* BCOTimerGauge.m */; };
+		AF10943E1AB95219008BBB6D /* BCOCollisionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10941D1AB95219008BBB6D /* BCOCollisionUtils.m */; };
+		AF10943F1AB95219008BBB6D /* BCOStonePositionDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10941F1AB95219008BBB6D /* BCOStonePositionDefines.m */; };
+		AF1094401AB95219008BBB6D /* BCOStoneTypeDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1094211AB95219008BBB6D /* BCOStoneTypeDefines.m */; };
+		AF1094411AB95219008BBB6D /* BCOSwapAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1094251AB95219008BBB6D /* BCOSwapAnimation.m */; };
+		AF1094421AB95219008BBB6D /* BCOVanishAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1094271AB95219008BBB6D /* BCOVanishAnimation.m */; };
+		AF1094431AB95219008BBB6D /* BCOEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10942A1AB95219008BBB6D /* BCOEvent.m */; };
+		AF1094441AB95219008BBB6D /* BCOEventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10942C1AB95219008BBB6D /* BCOEventQueue.m */; };
+		AF1094451AB95219008BBB6D /* BCOSwapStoneEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10942E1AB95219008BBB6D /* BCOSwapStoneEvent.m */; };
+		AF1094461AB95219008BBB6D /* BCOVanishStoneEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1094301AB95219008BBB6D /* BCOVanishStoneEvent.m */; };
+		AF1094471AB95219008BBB6D /* BCOStoneCollisionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1094331AB95219008BBB6D /* BCOStoneCollisionChecker.m */; };
+		AF1094481AB95219008BBB6D /* BCOStoneFrameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1094351AB95219008BBB6D /* BCOStoneFrameManager.m */; };
+		AF1094491AB95219008BBB6D /* BCOStoneTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1094371AB95219008BBB6D /* BCOStoneTypeManager.m */; };
+		AF10944A1AB95219008BBB6D /* BCOTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10943A1AB95219008BBB6D /* BCOTimer.m */; };
+		AF10944D1AB95338008BBB6D /* PuzzleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10944C1AB95338008BBB6D /* PuzzleBoard.m */; };
 		AFFAA23A1AB2AC7A00755A5B /* libDMGameKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFAA22E1AB2AC7A00755A5B /* libDMGameKit.a */; };
 		AFFAA25C1AB2B16600755A5B /* DMGameKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFAA25B1AB2B16600755A5B /* DMGameKit.m */; };
 /* End PBXBuildFile section */
@@ -48,6 +68,55 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF1093FD1AB94D15008BBB6D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AF1093FF1AB94D3D008BBB6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF1094011AB94D50008BBB6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF1094031AB94D69008BBB6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF1094061AB95219008BBB6D /* FOT-KurokaneStd-EB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FOT-KurokaneStd-EB.otf"; sourceTree = "<group>"; };
+		AF1094081AB95219008BBB6D /* stone_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_blue.png; sourceTree = "<group>"; };
+		AF1094091AB95219008BBB6D /* stone_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stone_blue@2x.png"; sourceTree = "<group>"; };
+		AF10940A1AB95219008BBB6D /* stone_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_green.png; sourceTree = "<group>"; };
+		AF10940B1AB95219008BBB6D /* stone_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stone_green@2x.png"; sourceTree = "<group>"; };
+		AF10940C1AB95219008BBB6D /* stone_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_pink.png; sourceTree = "<group>"; };
+		AF10940D1AB95219008BBB6D /* stone_pink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stone_pink@2x.png"; sourceTree = "<group>"; };
+		AF10940E1AB95219008BBB6D /* stone_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_purple.png; sourceTree = "<group>"; };
+		AF10940F1AB95219008BBB6D /* stone_purple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stone_purple@2x.png"; sourceTree = "<group>"; };
+		AF1094101AB95219008BBB6D /* stone_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_red.png; sourceTree = "<group>"; };
+		AF1094111AB95219008BBB6D /* stone_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stone_red@2x.png"; sourceTree = "<group>"; };
+		AF1094121AB95219008BBB6D /* stone_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_yellow.png; sourceTree = "<group>"; };
+		AF1094131AB95219008BBB6D /* stone_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stone_yellow@2x.png"; sourceTree = "<group>"; };
+		AF1094171AB95219008BBB6D /* BCOStoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOStoneView.h; sourceTree = "<group>"; };
+		AF1094181AB95219008BBB6D /* BCOStoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOStoneView.m; sourceTree = "<group>"; };
+		AF1094191AB95219008BBB6D /* BCOTimerGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOTimerGauge.h; sourceTree = "<group>"; };
+		AF10941A1AB95219008BBB6D /* BCOTimerGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOTimerGauge.m; sourceTree = "<group>"; };
+		AF10941C1AB95219008BBB6D /* BCOCollisionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOCollisionUtils.h; sourceTree = "<group>"; };
+		AF10941D1AB95219008BBB6D /* BCOCollisionUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOCollisionUtils.m; sourceTree = "<group>"; };
+		AF10941E1AB95219008BBB6D /* BCOStonePositionDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOStonePositionDefines.h; sourceTree = "<group>"; };
+		AF10941F1AB95219008BBB6D /* BCOStonePositionDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOStonePositionDefines.m; sourceTree = "<group>"; };
+		AF1094201AB95219008BBB6D /* BCOStoneTypeDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOStoneTypeDefines.h; sourceTree = "<group>"; };
+		AF1094211AB95219008BBB6D /* BCOStoneTypeDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOStoneTypeDefines.m; sourceTree = "<group>"; };
+		AF1094241AB95219008BBB6D /* BCOSwapAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOSwapAnimation.h; sourceTree = "<group>"; };
+		AF1094251AB95219008BBB6D /* BCOSwapAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOSwapAnimation.m; sourceTree = "<group>"; };
+		AF1094261AB95219008BBB6D /* BCOVanishAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOVanishAnimation.h; sourceTree = "<group>"; };
+		AF1094271AB95219008BBB6D /* BCOVanishAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOVanishAnimation.m; sourceTree = "<group>"; };
+		AF1094291AB95219008BBB6D /* BCOEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOEvent.h; sourceTree = "<group>"; };
+		AF10942A1AB95219008BBB6D /* BCOEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOEvent.m; sourceTree = "<group>"; };
+		AF10942B1AB95219008BBB6D /* BCOEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOEventQueue.h; sourceTree = "<group>"; };
+		AF10942C1AB95219008BBB6D /* BCOEventQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOEventQueue.m; sourceTree = "<group>"; };
+		AF10942D1AB95219008BBB6D /* BCOSwapStoneEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOSwapStoneEvent.h; sourceTree = "<group>"; };
+		AF10942E1AB95219008BBB6D /* BCOSwapStoneEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOSwapStoneEvent.m; sourceTree = "<group>"; };
+		AF10942F1AB95219008BBB6D /* BCOVanishStoneEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOVanishStoneEvent.h; sourceTree = "<group>"; };
+		AF1094301AB95219008BBB6D /* BCOVanishStoneEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOVanishStoneEvent.m; sourceTree = "<group>"; };
+		AF1094321AB95219008BBB6D /* BCOStoneCollisionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOStoneCollisionChecker.h; sourceTree = "<group>"; };
+		AF1094331AB95219008BBB6D /* BCOStoneCollisionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOStoneCollisionChecker.m; sourceTree = "<group>"; };
+		AF1094341AB95219008BBB6D /* BCOStoneFrameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOStoneFrameManager.h; sourceTree = "<group>"; };
+		AF1094351AB95219008BBB6D /* BCOStoneFrameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOStoneFrameManager.m; sourceTree = "<group>"; };
+		AF1094361AB95219008BBB6D /* BCOStoneTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOStoneTypeManager.h; sourceTree = "<group>"; };
+		AF1094371AB95219008BBB6D /* BCOStoneTypeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOStoneTypeManager.m; sourceTree = "<group>"; };
+		AF1094391AB95219008BBB6D /* BCOTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOTimer.h; sourceTree = "<group>"; };
+		AF10943A1AB95219008BBB6D /* BCOTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOTimer.m; sourceTree = "<group>"; };
+		AF10944B1AB95338008BBB6D /* PuzzleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleBoard.h; sourceTree = "<group>"; };
+		AF10944C1AB95338008BBB6D /* PuzzleBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleBoard.m; sourceTree = "<group>"; };
 		AFFAA22E1AB2AC7A00755A5B /* libDMGameKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDMGameKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFAA2391AB2AC7A00755A5B /* DMGameKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMGameKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFAA23F1AB2AC7A00755A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +130,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1094041AB94D69008BBB6D /* CoreGraphics.framework in Frameworks */,
+				AF1094021AB94D50008BBB6D /* Foundation.framework in Frameworks */,
+				AF1094001AB94D3D008BBB6D /* UIKit.framework in Frameworks */,
+				AF1093FE1AB94D15008BBB6D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +148,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF1093A01AB9448B008BBB6D /* PazDra */ = {
+			isa = PBXGroup;
+			children = (
+				AF1094051AB95219008BBB6D /* PazDraAssets */,
+				AF1094141AB95219008BBB6D /* PuzzleBoard */,
+			);
+			name = PazDra;
+			path = PazDraKit/PazDra;
+			sourceTree = "<group>";
+		};
+		AF1094051AB95219008BBB6D /* PazDraAssets */ = {
+			isa = PBXGroup;
+			children = (
+				AF1094061AB95219008BBB6D /* FOT-KurokaneStd-EB.otf */,
+				AF1094071AB95219008BBB6D /* images */,
+			);
+			path = PazDraAssets;
+			sourceTree = "<group>";
+		};
+		AF1094071AB95219008BBB6D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AF1094081AB95219008BBB6D /* stone_blue.png */,
+				AF1094091AB95219008BBB6D /* stone_blue@2x.png */,
+				AF10940A1AB95219008BBB6D /* stone_green.png */,
+				AF10940B1AB95219008BBB6D /* stone_green@2x.png */,
+				AF10940C1AB95219008BBB6D /* stone_pink.png */,
+				AF10940D1AB95219008BBB6D /* stone_pink@2x.png */,
+				AF10940E1AB95219008BBB6D /* stone_purple.png */,
+				AF10940F1AB95219008BBB6D /* stone_purple@2x.png */,
+				AF1094101AB95219008BBB6D /* stone_red.png */,
+				AF1094111AB95219008BBB6D /* stone_red@2x.png */,
+				AF1094121AB95219008BBB6D /* stone_yellow.png */,
+				AF1094131AB95219008BBB6D /* stone_yellow@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		AF1094141AB95219008BBB6D /* PuzzleBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AF10944B1AB95338008BBB6D /* PuzzleBoard.h */,
+				AF10944C1AB95338008BBB6D /* PuzzleBoard.m */,
+				AF1094171AB95219008BBB6D /* BCOStoneView.h */,
+				AF1094181AB95219008BBB6D /* BCOStoneView.m */,
+				AF1094191AB95219008BBB6D /* BCOTimerGauge.h */,
+				AF10941A1AB95219008BBB6D /* BCOTimerGauge.m */,
+				AF10941B1AB95219008BBB6D /* C */,
+				AF1094221AB95219008BBB6D /* Model */,
+			);
+			path = PuzzleBoard;
+			sourceTree = "<group>";
+		};
+		AF10941B1AB95219008BBB6D /* C */ = {
+			isa = PBXGroup;
+			children = (
+				AF10941C1AB95219008BBB6D /* BCOCollisionUtils.h */,
+				AF10941D1AB95219008BBB6D /* BCOCollisionUtils.m */,
+				AF10941E1AB95219008BBB6D /* BCOStonePositionDefines.h */,
+				AF10941F1AB95219008BBB6D /* BCOStonePositionDefines.m */,
+				AF1094201AB95219008BBB6D /* BCOStoneTypeDefines.h */,
+				AF1094211AB95219008BBB6D /* BCOStoneTypeDefines.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		AF1094221AB95219008BBB6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF1094231AB95219008BBB6D /* Animation */,
+				AF1094281AB95219008BBB6D /* Event */,
+				AF1094311AB95219008BBB6D /* Manager */,
+				AF1094381AB95219008BBB6D /* Other */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF1094231AB95219008BBB6D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				AF1094241AB95219008BBB6D /* BCOSwapAnimation.h */,
+				AF1094251AB95219008BBB6D /* BCOSwapAnimation.m */,
+				AF1094261AB95219008BBB6D /* BCOVanishAnimation.h */,
+				AF1094271AB95219008BBB6D /* BCOVanishAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		AF1094281AB95219008BBB6D /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				AF1094291AB95219008BBB6D /* BCOEvent.h */,
+				AF10942A1AB95219008BBB6D /* BCOEvent.m */,
+				AF10942B1AB95219008BBB6D /* BCOEventQueue.h */,
+				AF10942C1AB95219008BBB6D /* BCOEventQueue.m */,
+				AF10942D1AB95219008BBB6D /* BCOSwapStoneEvent.h */,
+				AF10942E1AB95219008BBB6D /* BCOSwapStoneEvent.m */,
+				AF10942F1AB95219008BBB6D /* BCOVanishStoneEvent.h */,
+				AF1094301AB95219008BBB6D /* BCOVanishStoneEvent.m */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		AF1094311AB95219008BBB6D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AF1094321AB95219008BBB6D /* BCOStoneCollisionChecker.h */,
+				AF1094331AB95219008BBB6D /* BCOStoneCollisionChecker.m */,
+				AF1094341AB95219008BBB6D /* BCOStoneFrameManager.h */,
+				AF1094351AB95219008BBB6D /* BCOStoneFrameManager.m */,
+				AF1094361AB95219008BBB6D /* BCOStoneTypeManager.h */,
+				AF1094371AB95219008BBB6D /* BCOStoneTypeManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AF1094381AB95219008BBB6D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AF1094391AB95219008BBB6D /* BCOTimer.h */,
+				AF10943A1AB95219008BBB6D /* BCOTimer.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		AFFAA2251AB2AC7A00755A5B = {
 			isa = PBXGroup;
 			children = (
+				AF1094031AB94D69008BBB6D /* CoreGraphics.framework */,
+				AF1094011AB94D50008BBB6D /* Foundation.framework */,
+				AF1093FF1AB94D3D008BBB6D /* UIKit.framework */,
+				AF1093FD1AB94D15008BBB6D /* QuartzCore.framework */,
 				AFFAA2301AB2AC7A00755A5B /* DMGameKit */,
 				AFFAA23D1AB2AC7A00755A5B /* DMGameKitTests */,
 				AFFAA22F1AB2AC7A00755A5B /* Products */,
@@ -131,6 +333,7 @@
 			isa = PBXGroup;
 			children = (
 				AFFAA25B1AB2B16600755A5B /* DMGameKit.m */,
+				AF1093A01AB9448B008BBB6D /* PazDra */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -207,6 +410,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = AFFAA2251AB2AC7A00755A5B;
 			productRefGroup = AFFAA22F1AB2AC7A00755A5B /* Products */;
@@ -251,7 +455,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1094401AB95219008BBB6D /* BCOStoneTypeDefines.m in Sources */,
+				AF1094481AB95219008BBB6D /* BCOStoneFrameManager.m in Sources */,
+				AF10943F1AB95219008BBB6D /* BCOStonePositionDefines.m in Sources */,
+				AF10943D1AB95219008BBB6D /* BCOTimerGauge.m in Sources */,
+				AF1094421AB95219008BBB6D /* BCOVanishAnimation.m in Sources */,
+				AF10944D1AB95338008BBB6D /* PuzzleBoard.m in Sources */,
 				AFFAA25C1AB2B16600755A5B /* DMGameKit.m in Sources */,
+				AF1094431AB95219008BBB6D /* BCOEvent.m in Sources */,
+				AF1094411AB95219008BBB6D /* BCOSwapAnimation.m in Sources */,
+				AF1094461AB95219008BBB6D /* BCOVanishStoneEvent.m in Sources */,
+				AF10944A1AB95219008BBB6D /* BCOTimer.m in Sources */,
+				AF10943C1AB95219008BBB6D /* BCOStoneView.m in Sources */,
+				AF1094491AB95219008BBB6D /* BCOStoneTypeManager.m in Sources */,
+				AF1094451AB95219008BBB6D /* BCOSwapStoneEvent.m in Sources */,
+				AF10943E1AB95219008BBB6D /* BCOCollisionUtils.m in Sources */,
+				AF1094441AB95219008BBB6D /* BCOEventQueue.m in Sources */,
+				AF1094471AB95219008BBB6D /* BCOStoneCollisionChecker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +648,7 @@
 				AFFAA2441AB2AC7A00755A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFAA2451AB2AC7A00755A5B /* Build configuration list for PBXNativeTarget "DMGameKitTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +657,7 @@
 				AFFAA2471AB2AC7A00755A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFAA2531AB2AEA100755A5B /* Build configuration list for PBXAggregateTarget "DMGameKit.framework" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +666,7 @@
 				AFFAA2551AB2AEA100755A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 
 @interface DMGameKit : NSObject
 
-- (void) startLogic;
+// Common
+- (void)fadeOutImageView:(UIImageView *)imageView withDuration:(float)time;
+- (UIImageView *)makeMonster:(UIImage *)image withFrame:(CGRect)frame;
+- (NSArray *)makeMonsters:(NSArray *)imageViewArray;
+
+// PazDra
+- (void)makePazDraView:(UIView *)view withRows:(int)rows andColumns:(int)columns;
 
 @end
